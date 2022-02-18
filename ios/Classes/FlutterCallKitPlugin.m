@@ -1,6 +1,7 @@
 #import "FlutterCallKitPlugin.h"
 
 #import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVAudioSession.h>
 
 #ifdef DEBUG
 static int const OUTGOING_CALL_WAKEUP_DELAY = 10;
